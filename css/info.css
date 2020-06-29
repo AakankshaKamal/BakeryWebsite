@@ -1,0 +1,13 @@
+body{
+	background-image:url('../images/infoback.jpg');
+	background-size: cover;
+	background-attachment:scroll;
+	background-repeat:repeat-y;
+	height: 100vh;
+
+	
+}
+*{
+	color: #C36
+}
+h

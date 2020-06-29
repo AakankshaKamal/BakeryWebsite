@@ -1,0 +1,147 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	color: black;
+	overflow-x:hidden; 
+	font-family: 'Flamenco', cursive;
+	background-image: url('../images/one.jpg');
+	background-repeat:repeat;
+}
+header{
+	background-image: url('../images/background.jpg');
+background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: center;
+}
+.clearfix:break-after: {
+	content: "."
+	visibility:hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+
+}
+.logom{
+	float:left;
+	margin-left: 12px;
+}
+.row{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.listitem{
+	float:right;
+	margin-top: 60px;
+
+}
+.listitem li{
+	display: inline;
+    list-style: none;
+    margin-left: 13px;
+    color:rgb(255,255,255);
+    size: 134px;
+}
+.listitem a{
+color: rgb(255,255,255);
+ background-color:transparent;
+ text-shadow: 2px 2px 5px red;
+ font-weight: 100;
+font-size: 23px;
+
+}
+.listitem a:hover{
+	background-color: yellow;
+}
+.Middleone{
+	width:1270px;
+	font-size: 25px;
+	position:absolute;
+	top:50%;
+	left: 50%;
+	
+	transform: translate(-50%,-50%);
+}
+h1{
+	margin-bottom: 20px;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	font-family: 'Sriracha', cursive;
+}
+button{
+border-radius: 15px;
+border-color: Orange;
+border-width: 5px;
+padding: 10px;
+transition: background-color 0.2s,border 0.2s,color 0.2s;
+
+	background-color: yellow;
+}
+button:hover{
+	background-color: transparent;
+}
+.ONe{
+	background-color: black;
+	 
+}
+.anim{
+	animation: doherem 1s infinite;
+}
+@keyframes doherem {
+	
+ 50%{color:#FF00FF;}
+75%{color:#A52A2A;}
+100%{color:#fff;}
+}
+@media only screen and (max-width: 1180px){
+	.Middleone{
+		width:100%;
+		padding: 2%
+	}
+}
+@media only screen and (max-width: 998px){
+	h1{font-size:30px;}
+	.listitem{
+		display: none;
+	}}
+}
+table{
+	border:15px dotted #bbb;
+	padding: 14px;
+}
+td{
+	padding: 20px;
+
+}
+.coupon {
+  border: 15px dotted #bbb; /* Dotted border */
+  
+  border-radius: 15px; /* Rounded border */
+ /* Center the coupon */
+  background-color: red;
+float: bottom;                         
+            
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+.animate__animated.animate__swing {
+  --animate-duration:4s;
+  --animate-repeat:10;
+
+}

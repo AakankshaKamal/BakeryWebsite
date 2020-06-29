@@ -1,0 +1,83 @@
+body{
+	background-image:url('../images/back.jpg');
+	background-size: cover;
+	background-attachment:scroll;
+	background-repeat:repeat-y;
+	height: 100vh;
+
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  border-color: #fff;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+hr{
+	border-width: 20px;
+	border-color: red;
+  border-radius: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.responsive:hover .dropdown-content {
+  display: block;
+}
+.desc{
+	font-family: 'Dancing Script', cursive;
+	size: 40px;
+	text-decoration-color: rgb(0,0,0);
+  background-color: rgb(60, 60, 60);
+   padding: 5px;
+  text-align: center;
+  font-size: 23px;
+  text-transform: lowercase;
+
+}
+h3{
+	font-size: 50px;
+	text-align: center;
+
+	animation: doherem 1s infinite;
+}
+@keyframes doherem {
+	
+ 50%{color:#FF00FF;}
+75%{color:#A52A2A;}
+100%{color:#fff;}
+}
