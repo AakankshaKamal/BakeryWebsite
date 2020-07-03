@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About</title>
+  <link rel="stylesheet" type="text/css" href="CSS/info.css" >
+   <script src="scriptfiles/slide.js">Start</script>
+
+</head>
+<body onload="showSlides()">
+ 
+
+
+<div class="slideshow-container">
+  <table>
+<td>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img class="imagesdisp" src="images/boy.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+</td>
+<td>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img class="imagesdisp" src="images/back1.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+</td>
+<td>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img class="imagesdisp" src="images/badj2.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+</td>
+</div>
+</table>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<br>
+<div class="formcontainer">
+  
+  <form action="phpfiles/contact.php" method="post" >
+<fieldset id="jk" >
+  <legend>Personal Details</legend>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." >
+    <br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<br>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="India">India</option>
+      <option value="usa">USA</option>
+    </select>
+<br>
+Contact No :<input type="number" >
+<br>
+   Occasion: <select id="occasion" name="Occasion">
+      <option value="Marriage">Marriage</option>
+      <option value="Birthdays">Birthdays</option>
+      <option value="Comapny parties">Company parties</option>
+      <option value="Retirement">Retirement</option>
+      <option value="Others">Others</option>
+
+    </select>
+
+<br>
+    <label for="subject">Details...</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<br>
+    <input type="submit" value="Submit">
+  
+  </fieldset>
+  </form>
+</div>
+
+
+
+</body>
+</html> 
